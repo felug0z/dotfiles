@@ -17,3 +17,4 @@
 - [Wallpaper source](https://github.com/dharmx/walls/raw/main/digital/a_car_with_trees_on_it.png)
 - [Tokyo Night GTK Theme](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme) by [Fausto-Korpsvart](https://github.com/Fausto-Korpsvart/)
 - [Wlogout Theme](https://github.com/Hadi493/wlogout) by [Hadi493](https://github.com/Hadi493/)
+- [Original Waybar config](https://github.com/brunoanesio/waybar-config) by [brunoanesio](https://github.com/brunoanesio/)
