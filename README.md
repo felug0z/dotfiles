@@ -1,10 +1,10 @@
 # Programs and Tools
-**Wayland Compositor**: [Hyprland](https://github.com/hyprwm/Hyprland)
-**Terminal Emulator**: [kitty](https://github.com/kovidgoyal/kitty)
-**Wallpaper Utility**: [hyprpaper](https://github.com/hyprwm/hyprpaper)
-**Application Launcher**: [fuzzel](https://codeberg.org/dnkl/fuzzel)
-**Shell**: [zsh](https://wiki.archlinux.org/title/Zsh)
-**File Manager**: [Nautilus](https://github.com/GNOME/nautilus)
+- **Wayland Compositor**: [Hyprland](https://github.com/hyprwm/Hyprland)
+- **Terminal Emulator**: [kitty](https://github.com/kovidgoyal/kitty)
+- **Wallpaper Utility**: [hyprpaper](https://github.com/hyprwm/hyprpaper)
+- **Application Launcher**: [fuzzel](https://codeberg.org/dnkl/fuzzel)
+- **Shell**: [zsh](https://wiki.archlinux.org/title/Zsh)
+- **File Manager**: [Nautilus](https://github.com/GNOME/nautilus)
 
 # Screenshots
 <img width="1920" height="1080" alt="2026-03-12-235403_hyprshot" src="https://github.com/user-attachments/assets/066c6454-34ba-4826-bcb9-3ffeeeaf94eb" />
