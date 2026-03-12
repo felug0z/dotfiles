@@ -1,0 +1,126 @@
+* {
+  min-height: 0;
+  min-width: 0;
+  font-family: Lexend, "JetBrainsMono NFP";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+window#waybar {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: transparent;
+}
+
+/* Workspaces */
+
+#workspaces button {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #0a0908;
+  color: #b8f2e6;
+}
+
+#workspaces button:hover {
+  background-color: #b8f2e6;
+  color: #0a0908;
+}
+
+#workspaces button.active {
+  background-color: #0a0908;
+  color: #b8f2e6;
+  border: 2px solid #b8f2e6;
+}
+
+#workspaces button.urgent {
+  background-color: #0a0908;
+  color: #b8f2e6;
+}
+
+/* Modules */
+
+#clock,
+#pulseaudio,
+#custom-logo,
+#custom-power,
+#custom-spotify,
+#custom-notification,
+#cpu,
+#tray,
+#memory,
+#window,
+#mpris {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #0a0908;
+  color: #b8f2e6;
+}
+
+/* Media */
+
+#mpris.playing {
+  color: #b8f2e6;
+}
+
+#mpris.paused {
+  color: #6a8f88;
+}
+
+/* Separator */
+
+#custom-sep {
+  padding: 0px;
+  color: #6a8f88;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+/* Module Colors */
+
+#cpu {
+  color: #b8f2e6;
+}
+
+#memory {
+  color: #b8f2e6;
+}
+
+#clock {
+  color: #b8f2e6;
+}
+
+#clock.simpleclock {
+  color: #b8f2e6;
+}
+
+#window {
+  color: #b8f2e6;
+}
+
+#pulseaudio {
+  color: #b8f2e6;
+}
+
+#pulseaudio.muted {
+  color: #6a8f88;
+}
+
+#custom-logo {
+  color: #b8f2e6;
+}
+
+#custom-power {
+  color: #b8f2e6;
+}
+
+/* Tooltip */
+
+tooltip {
+  background-color: #0a0908;
+  border: 2px solid #b8f2e6;
+  color: #b8f2e6;
+}
