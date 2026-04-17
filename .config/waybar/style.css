@@ -1,3 +1,37 @@
+/*
+ * Flexoki palette
+ * https://stephango.com/flexoki
+ */
+
+@define-color bg   #100f0f;
+@define-color bg-2 #1c1b1a;
+@define-color ui   #282726;
+@define-color ui-2 #343331;
+@define-color ui-3 #403e3c;
+@define-color tx-3 #575653;
+@define-color tx-2 #878580;
+@define-color tx   #cecdc3;
+
+@define-color re   #d14d41;
+@define-color or   #da702c;
+@define-color ye   #d0a215;
+@define-color gr   #879a39;
+@define-color cy   #3aa99f;
+@define-color bl   #4385be;
+@define-color pu   #8b7ec8;
+@define-color ma   #ce5d97;
+
+@define-color re-2 #af3029;
+@define-color or-2 #bc5215;
+@define-color ye-2 #ad8301;
+@define-color gr-2 #66800b;
+@define-color cy-2 #24937b;
+@define-color bl-2 #205ea6;
+@define-color pu-2 #5e409d;
+@define-color ma-2 #a02f6f;
+
+/* Base */
+
 * {
   min-height: 0;
   min-width: 0;
@@ -18,24 +52,24 @@ window#waybar {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
   border-radius: 6px;
-  background-color: #0a0908;
-  color: #b8f2e6;
+  background-color: @bg;
+  color: @cy;
 }
 
 #workspaces button:hover {
-  background-color: #b8f2e6;
-  color: #0a0908;
+  background-color: @cy;
+  color: @bg;
 }
 
 #workspaces button.active {
-  background-color: #0a0908;
-  color: #b8f2e6;
-  border: 2px solid #b8f2e6;
+  background-color: @bg;
+  color: @cy;
+  border: 2px solid @cy;
 }
 
 #workspaces button.urgent {
-  background-color: #0a0908;
-  color: #b8f2e6;
+  background-color: @bg;
+  color: @re;
 }
 
 /* Modules */
@@ -54,25 +88,25 @@ window#waybar {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
   border-radius: 6px;
-  background-color: #0a0908;
-  color: #b8f2e6;
+  background-color: @bg;
+  color: @tx;
 }
 
 /* Media */
 
 #mpris.playing {
-  color: #b8f2e6;
+  color: @cy;
 }
 
 #mpris.paused {
-  color: #6a8f88;
+  color: @tx-2;
 }
 
 /* Separator */
 
 #custom-sep {
   padding: 0px;
-  color: #6a8f88;
+  color: @tx-2;
 }
 
 window#waybar.empty #window {
@@ -82,45 +116,45 @@ window#waybar.empty #window {
 /* Module Colors */
 
 #cpu {
-  color: #b8f2e6;
+  color: @gr;
 }
 
 #memory {
-  color: #b8f2e6;
+  color: @pu;
 }
 
 #clock {
-  color: #b8f2e6;
+  color: @bl;
 }
 
 #clock.simpleclock {
-  color: #b8f2e6;
+  color: @bl;
 }
 
 #window {
-  color: #b8f2e6;
+  color: @tx;
 }
 
 #pulseaudio {
-  color: #b8f2e6;
+  color: @ye;
 }
 
 #pulseaudio.muted {
-  color: #6a8f88;
+  color: @tx-2;
 }
 
 #custom-logo {
-  color: #b8f2e6;
+  color: @ma;
 }
 
 #custom-power {
-  color: #b8f2e6;
+  color: @re;
 }
 
 /* Tooltip */
 
 tooltip {
-  background-color: #0a0908;
-  border: 2px solid #b8f2e6;
-  color: #b8f2e6;
+  background-color: @bg-2;
+  border: 2px solid @cy;
+  color: @tx;
 }
